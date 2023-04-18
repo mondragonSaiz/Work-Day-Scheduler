@@ -6,7 +6,14 @@ body {
 header {
   text-align: center;
   border: 5px solid black;
-  background-image: url("/assets/images/sunset4.jpeg");
+  background-color: #1b1b1c;
+  background-image: linear-gradient(
+    43deg,
+    #1b1b1c 0%,
+    #312531 46%,
+    #dac235 100%
+  );
+
   background-size: cover;
   color: antiquewhite;
 }
@@ -66,6 +73,11 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 .page-wrapper {
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background-color: #1b1b1c;
+  background-image: linear-gradient(
+    178deg,
+    #1b1b1c 0%,
+    #312531 46%,
+    #dac235 100%
+  );
 }

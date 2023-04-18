@@ -28,7 +28,7 @@ $(function () {
 
     // we need to acces the value of the parent - text area, we add an if statement
     var parentElDesc = parentEl.children.item(1);
-    var txt = parentElDesc.value;
+    var txt = parentElDesc.value.trim();
 
     // to prevent the user click the save button without writing any event
 
